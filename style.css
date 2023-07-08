@@ -41,6 +41,7 @@
     --primary-light-color: #ffffff;
     --secondary-light-color: #282828;
     --tertiary-light-color: #1e90ff;/*#1e90ff*/
+    --tertiary-light-color-25: #1e90ff25;/*#1e90ff*/
 
     /*Icons*/
     --icon-65: 65px;
@@ -150,9 +151,10 @@
   .navigation-menu {
     display: var(--d-flex);
     list-style: none;
-    padding: 0;
+    padding: 5px;
     align-items: var(--center);
     justify-content: var(--flex-end);
+    margin-top: 0;
   }
 
   .navigation-menu .navigation-menu-item {
@@ -238,7 +240,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px;
+    /* padding: 20px; */
   }
   contact-content-container,
   contact-form
@@ -292,6 +294,83 @@
 
   .form-submit-group button{
     width: 150px;
+  }
+
+  /*project container*/
+  .project-content-container {
+    width: auto;
+  }
+  .projects-content {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .project-search-content {
+    width: 35vw;
+    background-color: var(--tertiary-light-color-25);
+    border-radius: 20px;
+  }
+  .project-search-content form {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+  }
+  .filter-search {
+    padding: 15px;
+    border: 1px solid var(--tertiary-light-color);
+    background-color: var(--primary-light-color);
+    border-radius: 20px;
+    min-width: calc(100% - 50px);
+    font-family: var(--font-body);
+  }
+  .filter-search:focus {
+    outline: var(--tertiary-light-color);
+  }
+  .project-content-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 62vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .project-item {
+    position: relative;
+  }
+  .project-item img {
+    vertical-align: middle;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: top;
+    filter: drop-shadow(5px 7px 7px var(--tertiary-light-color-25));
+  }
+  .project-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: linear-gradient(var(--tertiary-light-color), var(--tertiary-light-color-25));
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity ease-in-out .2s;
+  }
+  .project-item:hover .project-description {
+    opacity: 1;
+  }
+  .project-item:hover img {
+    object-position: bottom;
+    transition: object-position linear 2s;
   }
 
   /*Breakpoint for Mobile*/
