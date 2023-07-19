@@ -415,16 +415,16 @@
     border-radius: 20px;
     padding: 10px;
   }
-  .services-content-card:nth-child(5):hover {
+  .services-content-card:nth-child(4):hover {
     grid-column: 1/3;
     transition: all ease 0.3s;
   }
-  .services-content-card:nth-child(6) {
+  .services-content-card:nth-child(5) {
     background-image: linear-gradient(45deg, var(--tertiary-light-color),var(--tertiary-light-color), var(--tertiary-light-color-25));
     color: var(--primary-color);
     border: 0;
   }
-  .services-content-card:nth-child(6) .card-icon .material-symbols-rounded {
+  .services-content-card:nth-child(5) .card-icon .material-symbols-rounded {
     color: var(--primary-color) !important;
   }
 
