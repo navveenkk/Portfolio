@@ -707,6 +707,9 @@
   .project-item.modal .project-item-image.mobile {
     width: 300px;
   }
+  .cursor {
+    display: none;
+  }
 }
     
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -723,5 +726,8 @@
   }
   .banner-content {
     padding-top: 0;
+  }
+  .cursor {
+    display: none;
   }
 }
