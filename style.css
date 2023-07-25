@@ -686,22 +686,29 @@
   }
   .project-item .project-item-image {
     height: 250px;
+    transition: none !important;
+  }
+  .project-item:hover .project-item-image {
+    object-position: top;
+  }
+  .project-description {
+    opacity: 1 !important;
+    transition: none !important;
   }
   .banner-content-outer {
-    height: auto;
+    height: auto !important;
   }
   .services-main-content {
     min-height: unset;
   }
   .services_title, .works_title {
   font-size: 30px;
-}
-
-.project-item.modal .project-item-image.mobile {
+  }
+  .project-item.modal .project-item-image.mobile {
     width: 300px;
   }
-    
 }
+    
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .banner-content-inner {
     display: flex;
