@@ -247,6 +247,7 @@
     /* padding: 20px; */
     height: inherit !important;
     will-change: auto;
+    align-items: center;
   }
   .intro {
     font-size: 14px;
@@ -276,7 +277,7 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    padding-top: 30px;
+    /* padding-top: 30px; */
   }
 
   .balloon {
@@ -674,7 +675,7 @@
     .project-content-container {
       width: 100%;
       /* height: auto !important; */
-      margin-top: 40px;
+      margin-top: 100px;
       min-height: fit-content;
     }
     .meter-outer {
@@ -696,4 +697,20 @@
   font-size: 30px;
 }
     
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .banner-content-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro_bio {
+    margin: 0;
+    line-height: 1em;
+  }
+  .banner-profile {
+    width: 175px;
+  }
+  .banner-content {
+    padding-top: 0;
+  }
 }
