@@ -713,6 +713,10 @@
 }
     
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+.meter-outer {
+    top: calc(100% - 40%);
+    left: calc(100% - 66%);
+  }
   .banner-content-inner {
     display: flex;
     flex-direction: column;
