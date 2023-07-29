@@ -1,7 +1,7 @@
 {
-    "short_name" : "My App",
-    "name" : "This is my super cool app",
-    "description" : "This is my personal app.",
+    "short_name" : "Nave",
+    "name" : "Navveen - Web developer",
+    "description" : "I am Navveen. I am web developer and freelancer from India",
     "start_url" : "https://www.navveenkk.in",
     "display_override": ["window-control-overlay", "standalone"],
     "display": "standalone", 
@@ -10,9 +10,9 @@
     "id" : "https://www.navveenkk.in/",
     "categories": ["books", "education", "medical"],
     "icons" : [{
-        "src": "https://www.navveenkk.in/webapp/ico_512.png",
+        "src": "https://www.navveenkk.in/webapp/profile.gif",
         "sizes": "512x512",
-        "type": "image/png"
+        "type": "image/gif"
       }],
-    "background_color" : "#FF0000"
+    "background_color" : "#FFFFFF"
 }
