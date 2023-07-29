@@ -3,7 +3,7 @@
     "name" : "This is my super cool app",
     "description" : "This is my personal app.",
     "start_url" : "https://www.navveenkk.in",
-    "display_override": ["window-control-overlay", "standalone"],
+    "display_override": ["window-control-overlay", "fullscreen"],
     "display": "standalone", 
     "prefer_related_applications" : false, 
     "orientation" : "portrait",
