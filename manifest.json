@@ -1,1 +1,18 @@
-
+{
+    "short_name" : "My App",
+    "name" : "This is my super cool app",
+    "description" : "This is my personal app.",
+    "start_url" : "https://www.navveenkk.in",
+    "display_override": ["window-control-overlay", "standalone"],
+    "display": "standalone", 
+    "prefer_related_applications" : false, 
+    "orientation" : "portrait",
+    "id" : "https://www.navveenkk.in/",
+    "categories": ["books", "education", "medical"],
+    "icons" : [{
+        "src": "https://www.navveenkk.in/webapp/ico_512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }],
+    "background_color" : "#FF0000"
+}
