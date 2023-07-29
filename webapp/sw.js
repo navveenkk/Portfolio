@@ -10,11 +10,7 @@ self.addEventListener("install", (event) => {
       "/index.html",
       "/style.css",
       "/app.js",
-      "/image-list.js",
-      "/star-wars-logo.jpg",
-      "/gallery/bountyHunters.jpg",
-      "/gallery/myLittleVader.jpg",
-      "/gallery/snowTroopers.jpg",
+      "/ico_512.png"
     ]),
   );
 });
