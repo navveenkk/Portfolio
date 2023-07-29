@@ -10,9 +10,9 @@
     "id" : "https://www.navveenkk.in/",
     "categories": ["books", "education", "medical"],
     "icons" : [{
-        "src": "https://www.navveenkk.in/webapp/ico_512.png",
+        "src": "https://www.navveenkk.in/ico_512.png",
         "sizes": "512x512",
         "type": "image/png"
       }],
-    "background_color" : "#FFFFFF"
+    "background_color" : "#1E90FF"
 }
