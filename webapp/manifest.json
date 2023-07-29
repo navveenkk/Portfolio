@@ -10,7 +10,7 @@
     "id" : "https://www.navveenkk.in/webapp/",
     "categories": ["books", "education", "medical"],
     "icons" : [{
-        "src": "ico_512.png",
+        "src": "https://www.navveenkk.in/webapp/ico_512.png",
         "sizes": "512x512",
         "type": "image/png"
       }],
