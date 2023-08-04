@@ -735,4 +735,7 @@
   .cursor {
     display: none;
   }
+.project-content-container {
+    margin-top: 40px;
+}
 }
